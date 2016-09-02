@@ -130,7 +130,7 @@ div.comments{
     border:1px solid lightgray;
     padding:4px;
 }
-body>footer{
+.blog>.footer{
     margin:32px;
     text-align:center;
 }
