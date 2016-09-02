@@ -130,10 +130,6 @@ div.comments{
     border:1px solid lightgray;
     padding:4px;
 }
-.blog>.footer{
-    margin:32px;
-    text-align:center;
-}
 #blogHead{
     margin:64px 0px;
 }
@@ -346,4 +342,68 @@ body{
 }
 .post{
     text-align:justify;
+}
+/* 2015-09-02 */
+div.blog{
+    position:relative;
+    overflow:hidden;
+    min-width:61%;
+    max-width:92%;
+    width:840px;
+    margin:0px auto;
+    padding-left:4%;
+    padding-right:4%;
+}
+div.blog>div.contents h1{
+    /* level 1 */
+    font-family:font_serif;
+}
+div.blog>div.contents h2{
+    /* level 1 */
+    font-family:font_serif;
+}
+div.blog>div.contents h3{
+    /* level 1 */
+    font-family:font_serif;
+}
+div.blog>div.contents h4{
+    /* level 1 */
+    font-family:font_serif;
+}
+div.blog>div.contents h5{
+    /* level 1 */
+    font-family:font_serif;
+}
+div.blog>div.contents h6{
+    /* level 1 */
+    font-family:font_serif;
+}
+@media(max-width:480px){
+    div.blog>div.contents h1{
+        /* level 1 */
+        font-size:1.52em;
+    }
+    div.blog>div.contents h2{
+        /* level 1 */
+        font-size:1.32em;
+    }
+    div.blog>div.contents h3{
+        /* level 1 */
+        font-size:1.15em;
+    }
+}
+@media(min-width:480px){
+}
+div.blog>div.contents h4+div{
+    margin-left:32px;
+}
+div.blog>div.contents h5+div{
+    margin-left:32px;
+}
+div.blog>div.contents h6+div{
+    margin-left:32px;
+}
+div.blog>div.footer{
+    margin:32px;
+    text-align:center;
 }
