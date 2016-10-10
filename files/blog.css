@@ -175,6 +175,7 @@ div.blog>div.header>div.title>a{
 }
 div.blog>div.header>div.tagline{
     font-family:font_serif;
+    margin-bottom:48px;
     text-align:center;
 }
 @media(max-width:640px){
@@ -187,9 +188,18 @@ div.blog>div.header>div.tagline{
         font-size:24px;
     }
 }
+div.blog>div.header>div.navigationBar{
+    margin:24px;
+    text-align:center;
+}
+div.blog>div.header>div.navigationBar a{
+    color:black;
+    margin:8px;
+    text-transform:uppercase;
+    text-decoration:none;
+}
 div.blog>div.header>div.searchForTags{
     text-align:center;
-    margin-top:48px;
 }
 div.blog>div.header>div.searchForTags>div.selectedTags{
     display:inline-block;
