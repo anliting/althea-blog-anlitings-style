@@ -145,11 +145,8 @@ a:active,a:link,a:hover,a:visited{
 }
 div.blog{
     position:relative;
-    overflow:hidden;
     margin:0 auto;
-    padding-left:4%;
-    padding-right:4%;
-    max-width:92%;
+    max-width:calc(100%);
     width:600px;
 }
 div.blog>div.header{
@@ -265,3 +262,18 @@ div.blog>div.footer{
     text-align:center;
 }
 /* end 2016-09-20 */
+/* start 2017-06-29 */
+.post{
+    overflow:hidden;
+    background-color:white;
+    padding:16px;
+    margin-top:32px;
+    /* ambient light */
+    box-shadow:0 1px 3px rgba(0,0,0,.4);
+    transition:all .4s cubic-bezier(.2,.8,.2,1);
+}
+.post:hover{
+    /* ambient light and key light */
+    box-shadow:0 1px 2px rgba(0,0,0,.4),0 8px 16px rgba(0,0,0,.2);
+}
+/* end 2017-06-29 */
