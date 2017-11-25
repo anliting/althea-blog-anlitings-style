@@ -1,3 +1,30 @@
+import { dom } from '/lib/core.static.js';
+
+var style = `
+/*
+/setting Plugins would need this.
+*/
+table.bordered{
+    border-collapse:collapse;
+}
+table.bordered th{
+    border:1px solid black;
+}
+table.bordered td{
+    border:1px solid black;
+}
+table.padding4px th{
+    padding:4px;
+}
+table.padding4px td{
+    padding:4px;
+}
+a:active,a:link,a:hover,a:visited{
+    color:blue;
+}
+`;
+
+var blogStyle = `
 .post table.bordered{
     border-collapse:collapse;
 }
@@ -280,3 +307,10 @@ body{
     box-shadow:0 1px 2px rgba(0,0,0,.4),0 8px 16px rgba(0,0,0,.2);
 }
 /* end 2017-06-29 */
+`;
+
+var blog = blog=>{
+    blog._style(dom.tn(blogStyle),dom.tn(style));
+};
+
+export default blog;

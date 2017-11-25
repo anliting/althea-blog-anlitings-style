@@ -1,6 +1,6 @@
-import{load}from '/lib/core.static.js'
-export default async blog=>{
-    let module=await load.module()
-    let s=await module.getByPath('plugins/anlitings-style-blog/blog.css')
-    blog._style(document.createTextNode(s))
+import{dom}from '/lib/core.static.js'
+import style from'./style.js'
+import blogStyle from'./blog/style.js'
+export default blog=>{
+    blog._style(dom.tn(blogStyle),dom.tn(style))
 }
