@@ -1,4 +1,4 @@
-import { dom } from '/lib/core.static.js';
+import { doe } from '/lib/core.static.js';
 
 var style = `
 /*
@@ -22,10 +22,10 @@ table.padding4px td{
 a:active,a:link,a:hover,a:visited{
     color:blue;
 }
-`;
+`
 
 var editpage = ()=>{
-    dom.head(dom.style(style));
-};
+    doe.head(doe.style(style));
+}
 
 export default editpage;
