@@ -273,15 +273,6 @@ div.blog>div.contents h6{
 }
 @media(min-width:480px){
 }
-div.blog>div.contents h4+div{
-    margin-left:32px;
-}
-div.blog>div.contents h5+div{
-    margin-left:32px;
-}
-div.blog>div.contents h6+div{
-    margin-left:32px;
-}
 div.blog>div.footer{
     margin:32px;
     text-align:center;
