@@ -38,18 +38,6 @@ body{
         local('Serif')
     ;
 }
-/*@font-face{
-    font-family:font_serif;
-    font-style:italic;
-    unicode-range:U+00-024F;
-    src:
-        local('CMU Serif'),
-        local('Times New Roman'),
-        local('Latin Modern Roman'),
-        local('Georgia'),
-        local('Serif')
-    ;
-}*/
 @font-face{
     font-family:font_serif;
     unicode-range:U+4E00-9FFF,U+3400-4DBF,U+20000-2A6DF,U+2A700-2B73F,U+2B740-2B81F,U+2B820-2CEAF,U+2CEB0-2EBE0,U+F900-FAFF,U+2F800-2FA1F,U+2F00-2FDF,U+2E80-2EFF,U+31C0-31EF,U+2FF0-2FFF,U+3000-303F,U+16FE0-16FFF,U+FE30-FE4F,U+FF00-FFEF,U+FE50-FE6F,U+FE10-FE1F;
