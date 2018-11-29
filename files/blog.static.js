@@ -20,7 +20,7 @@ table.padding4px td{
 a:active,a:link,a:hover,a:visited{
     color:blue;
 }
-`
+`;
 
 var blogStyle = `
 .post table.bordered{
@@ -280,13 +280,18 @@ body{
     box-shadow:0 1px 2px rgba(0,0,0,.4),0 8px 16px rgba(0,0,0,.2);
 }
 /* end 2017-06-29 */
-`
+/* start 2018-11-29 */
+.blog>.contents>.post>.content{
+    margin:1em 0;
+}
+/* end 2018-11-29 */
+`;
 
 var blog = blog=>{
     blog._style(
         document.createTextNode(blogStyle),
         document.createTextNode(style)
     );
-}
+};
 
 export default blog;

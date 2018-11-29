@@ -256,4 +256,9 @@ body{
     box-shadow:0 1px 2px rgba(0,0,0,.4),0 8px 16px rgba(0,0,0,.2);
 }
 /* end 2017-06-29 */
+/* start 2018-11-29 */
+.blog>.contents>.post>.content{
+    margin:1em 0;
+}
+/* end 2018-11-29 */
 `

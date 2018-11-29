@@ -22,10 +22,10 @@ table.padding4px td{
 a:active,a:link,a:hover,a:visited{
     color:blue;
 }
-`
+`;
 
 var editpage = ()=>{
     doe.head(doe.style(style));
-}
+};
 
 export default editpage;
