@@ -66,15 +66,15 @@ body{
         local('微軟正黑體'),
     ;
 }
-div.center_align_variable_length_element_outer{
+.center_align_variable_length_element_outer{
     overflow:hidden;
 }
-div.center_align_variable_length_element_middle{
+.center_align_variable_length_element_middle{
     position:relative;
     float:left;
     left:50%;
 }
-div.center_align_variable_length_element_inner{
+.center_align_variable_length_element_inner{
     position:relative;
     float:left;
     left:-50%;
@@ -101,12 +101,12 @@ textarea.textarea_comment{
     font-family:font_serif;
     color:black;
 }
-span.tag_selected{
+.tag_selected{
     border:1px solid lightgray;
     padding:4px;
     font-family:font_sansserif;
 }
-div.comments{
+.comments{
     width:61%;
     margin-bottom:8px;
     border:1px solid lightgray;
@@ -128,112 +128,112 @@ div.comments{
 a:active,a:link,a:hover,a:visited{
     color:blue;
 }
-div.blog{
+.blog{
     position:relative;
     margin:0 auto;
     max-width:calc(100%);
     width:600px;
 }
-div.blog>div.header{
+.blog>.header{
     margin:64px 0px;
 }
-div.blog>div.header>div.title{
+.blog>.header>.title{
     text-align:center;
     font-family:font_serif;
 }
-div.blog>div.header>div.title>a{
+.blog>.header>.title>a{
     text-decoration:none;
     color:black;
 }
 @media(max-width:640px){
-    div.blog>div.header>div.title>a{
+    .blog>.header>.title>a{
         font-size:36px;
     }
 }
 @media(min-width:640px){
-    div.blog>div.header>div.title>a{
+    .blog>.header>.title>a{
         font-size:48px;
     }
 }
-div.blog>div.header>div.tagline{
+.blog>.header>.tagline{
     font-family:font_serif;
     margin-bottom:48px;
     text-align:center;
 }
 @media(max-width:640px){
-    div.blog>div.header>div.tagline{
+    .blog>.header>.tagline{
         font-size:18px;
     }
 }
 @media(min-width:640px){
-    div.blog>div.header>div.tagline{
+    .blog>.header>.tagline{
         font-size:24px;
     }
 }
-div.blog>div.header>div.navigationBar{
+.blog>.header>.navigationBar{
     margin:24px;
     text-align:center;
 }
-div.blog>div.header>div.navigationBar a{
+.blog>.header>.navigationBar a{
     color:black;
     margin:8px;
     text-transform:uppercase;
     text-decoration:none;
 }
-div.blog>div.header>div.searchForTags{
+.blog>.header>.searchForTags{
     text-align:center;
 }
-div.blog>div.header>div.searchForTags>div.selectedTags{
+.blog>.header>.searchForTags>.selectedTags{
     display:inline-block;
 }
-div.blog>div.header>div.searchForTags>div.selectedTags a{
+.blog>.header>.searchForTags>.selectedTags a{
     text-decoration:none;
 }
-div.blog>div.header>div.searchForTags>input{
+.blog>.header>.searchForTags>input{
     padding:4px;
     border:1px solid lightgray;
 }
-div.blog>div.header>div.tags{
+.blog>.header>.tags{
     font-family:font_sansserif;
 }
-div.blog>div.header>div.index{
+.blog>.header>.index{
     line-height:1.2;
 }
-div.blog>div.contents{
+.blog>.contents{
     text-align:justify;
 }
-div.blog>div.contents h1{
+.blog>.contents h1{
     font-family:font_serif;
 }
-div.blog>div.contents h2{
+.blog>.contents h2{
     font-family:font_serif;
 }
-div.blog>div.contents h3{
+.blog>.contents h3{
     font-family:font_serif;
 }
-div.blog>div.contents h4{
+.blog>.contents h4{
     font-family:font_serif;
 }
-div.blog>div.contents h5{
+.blog>.contents h5{
     font-family:font_serif;
 }
-div.blog>div.contents h6{
+.blog>.contents h6{
     font-family:font_serif;
 }
 @media(max-width:480px){
-    div.blog>div.contents h1{
+    .blog>.contents h1{
         font-size:1.52em;
     }
-    div.blog>div.contents h2{
+    .blog>.contents h2{
         font-size:1.32em;
     }
-    div.blog>div.contents h3{
+    .blog>.contents h3{
         font-size:1.15em;
     }
 }
 @media(min-width:480px){
 }
-div.blog>div.footer{
+.blog>.footer{
     margin:32px;
     text-align:center;
 }
@@ -261,4 +261,9 @@ body{
     margin:1em 0;
 }
 /* end 2018-11-29 */
+/* start 2018-12-09 */
+body{
+    background-color:#eee;
+}
+/* end 2018-12-09 */
 `
