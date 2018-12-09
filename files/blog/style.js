@@ -261,9 +261,4 @@ body{
     margin:1em 0;
 }
 /* end 2018-11-29 */
-/* start 2018-12-09 */
-body{
-    background-color:#eee;
-}
-/* end 2018-12-09 */
 `
