@@ -225,9 +225,6 @@ a:active,a:link,a:hover,a:visited{
 .blog>.header>.index{
     line-height:1.2;
 }
-.blog>.contents{
-    text-align:justify;
-}
 .blog>.contents h1{
     font-family:font_serif;
 }
