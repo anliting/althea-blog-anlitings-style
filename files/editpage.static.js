@@ -1,4 +1,4 @@
-import { doe } from './lib/core.static.js';
+import { doe } from '/lib/core.static.js';
 
 var style = `
 /*
